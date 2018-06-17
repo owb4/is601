@@ -10,26 +10,27 @@
         </div>
         <div class="row">
             <div class="col-md-12">
-                <form class="needs-validation" novalidate>
+                <form action="" class="needs-validation" novalidate>
+                    {{ csrf_field() }}
                     <div class="col-sm-5">
                         <label for="email">Email</label>
-                        <input type="email" class="form-control" id="email" placeholder="you@example.com">
+                        <input name="email" type="email" class="form-control" id="email" placeholder="you@example.com">
                         <div class="invalid-feedback">
                             Please enter a valid email address.
                         </div>
                     </div>
                     <br/>
                     <div class="col-sm-5">
-                        <label for="address">Subject</label>
-                        <input type="text" class="form-control" id="address" placeholder="Enter subject" required>
+                        <label for="subject">Subject</label>
+                        <input name="subject" type="text" class="form-control" id="subject" placeholder="Enter subject" required>
                         <div class="invalid-feedback">
-                            Please enter your shipping address.
+                            Please enter your message.
                         </div>
                     </div>
                     <br/>
                     <div class="col-sm-5">
-                        <label for="address2">Message</label>
-                        <input type="text" class="form-control" id="address2" placeholder="Enter details">
+                        <label for="message">Message</label>
+                        <textarea name="message" type="text" class="form-control" id="message" placeholder="Enter details"></textarea>
                     </div>
                     <br/>
                     <div class="col-sm-5">

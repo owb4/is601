@@ -18,13 +18,13 @@
         <div class="collapse navbar-collapse" id="navbarsExampleDefault">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="/message-list">View Messages (4)</a>
+                    <a class="nav-link" href="/message-list">View Messages (3)</a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="/">Sign In</a>
+                    <a class="nav-link" href="/signin">Sign In</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/about">Sign Up</a>
+                    <a class="nav-link" href="/signup">Sign Up</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="/logout">Log Out</a>

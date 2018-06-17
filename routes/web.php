@@ -35,8 +35,12 @@ Route::get('/signin', function () {
     return view('pages.signin');
 });
 
+Route::post('/signin', function () {
+    return view('pages.message-list');
+});
+
 Route::get('/logout', function () {
-    return view('pages.logout');
+    return view('pages.index');
 });
 
 Route::get('/message-list', function () {
