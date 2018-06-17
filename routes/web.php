@@ -11,6 +11,34 @@
 |
 */
 
+Route::get('/welcome', function () {
+    return view('pages.welcome');
+});
+
 Route::get('/', function () {
-    return view('welcome');
+    return view('pages.index');
+});
+
+Route::get('/about', function () {
+    return view('pages.about');
+});
+
+Route::get('/contact', function () {
+    return view('pages.contact');
+});
+
+Route::get('/signup', function () {
+    return view('pages.signup');
+});
+
+Route::get('/signin', function () {
+    return view('pages.signin');
+});
+
+Route::get('/logout', function () {
+    return view('pages.logout');
+});
+
+Route::get('/message-list', function () {
+    return view('pages.message-list');
 });
