@@ -30,8 +30,6 @@
                 <p>Regardless of the training option, you and your dog will receive tested and proven effective training that will last a lifetime. With commitment and consistency from you combined with our customized training plans, you will achieve the balanced relationship between you and your dog that you’ve always dreamed of.  Please check out Testimonials page to see how many lives we have changed!</p>
             </div>
         </div>
-
-        <hr>
-
-    </div> <!-- /container -->
+    </div>
+    <hr>
 @endsection

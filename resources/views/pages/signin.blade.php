@@ -5,7 +5,7 @@
     <div class="container">
         <div class="py-3">
             <img class="d-block mx-auto mb-1" src="https://getbootstrap.com/assets/brand/bootstrap-solid.svg" alt="" width="72" height="0">
-            <h2>Sign In</h2>
+            <h3>Sign In</h3>
             <p class="lead">Type your account info below.</p>
         </div>
         <div class="row">
@@ -41,6 +41,6 @@
                 </form>
             </div>
         </div>
-        <hr class="mb-4">
-
+    </div>
+    <hr class="mb-4">
 @endsection

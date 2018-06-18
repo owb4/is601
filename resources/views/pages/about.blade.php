@@ -18,6 +18,6 @@
                 <p>Our commitment is to provide the healthiest, most nurturing environment for your family member by giving them the same loyalty, dedication, trust, integrity, love, and care that we show our own pets while contributing to the community and promoting animal rights and awareness.</p>
             </div>
         </div>
-        <hr class="mb-4">
     </div>
+    <hr class="mb-4">
 @endsection

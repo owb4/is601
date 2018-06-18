@@ -46,3 +46,13 @@ Route::get('/logout', function () {
 Route::get('/message-list', function () {
     return view('pages.message-list');
 });
+
+Route::get('/message-1', function () {
+    return view('pages.message-1');
+});
+Route::get('/message-2', function () {
+    return view('pages.message-2');
+});
+Route::get('/message-3', function () {
+    return view('pages.message-3');
+});

@@ -5,7 +5,7 @@
     <div class="container">
         <div class="py-3">
             <img class="d-block mx-auto mb-1" src="https://getbootstrap.com/assets/brand/bootstrap-solid.svg" alt="" width="72" height="0">
-            <h2>Sign Up</h2>
+            <h3>Sign Up</h3>
             <p class="lead">Join us and we'll give your dog the best treatment there is!</p>
         </div>
         <div class="row">
@@ -41,6 +41,6 @@
                 </form>
             </div>
         </div>
-        <hr class="mb-4">
-
+    </div>
+    <hr class="mb-4">
 @endsection

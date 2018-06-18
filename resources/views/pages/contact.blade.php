@@ -4,13 +4,14 @@
 
     <div class="container">
         <div class="py-3">
-            <img class="d-block mx-auto mb-1" src="https://getbootstrap.com/assets/brand/bootstrap-solid.svg" alt="" width="72" height="0">
-            <h2>Contact Us</h2>
+            <img class="d-block mx-auto mb-1" src="https://getbootstrap.com/assets/brand/bootstrap-solid.svg" alt=""
+                 width="72" height="5">
+            <h3>Contact Us</h3>
             <p class="lead">Leave your info below and we'll get back to you as soon as we can.</p>
         </div>
         <div class="row">
             <div class="col-md-12">
-                <form action="" class="needs-validation" novalidate>
+                <form action="/" class="needs-validation" novalidate>
                     {{ csrf_field() }}
                     <div class="col-sm-5">
                         <label for="email">Email</label>
@@ -22,7 +23,8 @@
                     <br/>
                     <div class="col-sm-5">
                         <label for="subject">Subject</label>
-                        <input name="subject" type="text" class="form-control" id="subject" placeholder="Enter subject" required>
+                        <input name="subject" type="text" class="form-control" id="subject" placeholder="Enter subject"
+                               required>
                         <div class="invalid-feedback">
                             Please enter your message.
                         </div>
@@ -30,7 +32,8 @@
                     <br/>
                     <div class="col-sm-5">
                         <label for="message">Message</label>
-                        <textarea name="message" type="text" class="form-control" id="message" placeholder="Enter details"></textarea>
+                        <textarea name="message" type="text" class="form-control" id="message"
+                                  placeholder="Enter details"></textarea>
                     </div>
                     <br/>
                     <div class="col-sm-5">
@@ -39,7 +42,6 @@
                 </form>
             </div>
         </div>
-        <hr class="mb-4">
-
-
+    </div>
+    <hr class="mb-4">
 @endsection

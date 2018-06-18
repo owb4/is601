@@ -4,7 +4,7 @@
     <br/>
     <div class="row">
         <div class="col-sm-1"></div>
-        <div class="col-sm-10"><h2>Messages</h2></div>
+        <div class="col-sm-10"><h3>Messages</h3></div>
         <div class="col-sm-1"></div>
     </div>
     <div class="row">
@@ -24,20 +24,19 @@
                 </thead>
                 <tbody>
                 <tr>
-                    <th scope="row">MANY THANKS!!!</th>
+                    <th scope="row"><a class="nav-link" href="/message-1">MANY THANKS!!!</a></th>
                     <td><div class="col-sm-4"><form><button class="btn btn-primary btn-lg btn-block" type="submit">Delete</button></form></div></td>
                 </tr>
                 <tr>
-                    <th scope="row">Call me back ASAP</th>
+                    <th scope="row"><a class="nav-link" href="/message-2">Call me back ASAP</a></th>
                     <td><div class="col-sm-4"><form><button class="btn btn-primary btn-lg btn-block" type="submit">Delete</button></form></div></td>
                 </tr>
                 <tr>
-                    <th scope="row">Question on my bill</th>
+                    <th scope="row"><a class="nav-link" href="/message-3">Question on my bill</a></th>
                     <td><div class="col-sm-4"><form><button class="btn btn-primary btn-lg btn-block" type="submit">Delete</button></form></div></td>
                 </tbody>
             </table>
-            <hr class="mb-4">
         </div>
     </div>
-
+    <hr class="mb-4">
 @endsection
