@@ -11,6 +11,7 @@
         <div class="row">
             <div class="col-md-6">
                 <form action="/message-list" type="get" class="form-signin">
+                    {{ csrf_field() }}
                     <div class="mb-3">
                         <label for="username">Username</label>
                         <div class="input-group">
