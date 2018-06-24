@@ -11,8 +11,16 @@
         </div>
         <div class="row">
             <div class="col-md-12">
-                <form action="/" class="needs-validation" novalidate>
+                <form method="post" action="{{route('storecontact')}}" class="needs-validation" novalidate>
                     {{ csrf_field() }}
+                    <div class="col-sm-5">
+                        <label for="name">Name</label>
+                        <input name="name" type="name" class="form-control" id="name" placeholder="John Doe">
+                        <div class="invalid-feedback">
+                            Please enter your name.
+                        </div>
+                    </div>
+                    <br/>
                     <div class="col-sm-5">
                         <label for="email">Email</label>
                         <input name="email" type="email" class="form-control" id="email" placeholder="you@example.com">

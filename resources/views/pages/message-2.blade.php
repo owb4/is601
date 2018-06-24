@@ -13,7 +13,7 @@
                 <div class="card-body">
                     <h5 class="card-title">Call me back ASAP</h5>
                     <p class="card-text">I need to make a change to my appointment, please call me back as soon as you get back.</p>
-                    <a href="/message-list" class="btn btn-primary">Back</a>
+                    <a href="{{route('message-list')}}" class="btn btn-primary">Back</a>
                 </div>
             </div>
         </div>

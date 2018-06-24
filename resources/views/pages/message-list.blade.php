@@ -24,15 +24,15 @@
                 </thead>
                 <tbody>
                 <tr>
-                    <th scope="row"><a class="nav-link" href="/message-1">MANY THANKS!!!</a></th>
+                    <th scope="row"><a class="nav-link" href="{{route('message-1')}}">MANY THANKS!!!</a></th>
                     <td><div class="col-sm-4"><form><button class="btn btn-primary btn-lg btn-block" type="submit">Delete</button></form></div></td>
                 </tr>
                 <tr>
-                    <th scope="row"><a class="nav-link" href="/message-2">Call me back ASAP</a></th>
+                    <th scope="row"><a class="nav-link" href="{{route('message-2')}}">Call me back ASAP</a></th>
                     <td><div class="col-sm-4"><form><button class="btn btn-primary btn-lg btn-block" type="submit">Delete</button></form></div></td>
                 </tr>
                 <tr>
-                    <th scope="row"><a class="nav-link" href="/message-3">Question on my bill</a></th>
+                    <th scope="row"><a class="nav-link" href="{{route('message-3')}}">Question on my bill</a></th>
                     <td><div class="col-sm-4"><form><button class="btn btn-primary btn-lg btn-block" type="submit">Delete</button></form></div></td>
                 </tbody>
             </table>

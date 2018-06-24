@@ -13,7 +13,7 @@
                 <div class="card-body">
                     <h5 class="card-title">MANY THANKS!!!</h5>
                     <p class="card-text">I got the best experience during the grooming last week!</p>
-                    <a href="/message-list" class="btn btn-primary">Back</a>
+                    <a href="{{route('message-list')}}" class="btn btn-primary">Back</a>
                 </div>
             </div>
         </div>

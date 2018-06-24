@@ -11,48 +11,26 @@
 |
 */
 
-Route::get('/welcome', function () {
-    return view('pages.welcome');
-});
+Route::get('/welcome', 'PagesController@welcome')->name('welcome');
 
-Route::get('/', function () {
-    return view('pages.index');
-});
+Route::get('/', 'PagesController@index')->name('index');
 
-Route::get('/about', function () {
-    return view('pages.about');
-});
+Route::get('/about', 'PagesController@about')->name('about');
 
-Route::get('/contact', function () {
-    return view('pages.contact');
-});
+Route::get('/contact', 'PagesController@contact')->name('contact');
+Route::post('/contact', 'PagesController@storecontact')->name('storecontact');
+Route::get('/thanks/{name}', 'PagesController@thanks')->name('thanks');
 
-Route::get('/signup', function () {
-    return view('pages.signup');
-});
+Route::get('/signup', 'PagesController@signup')->name('signup');
 
-Route::get('/signin', function () {
-    return view('pages.signin');
-});
+Route::get('/signin', 'PagesController@signin')->name('signin');
 
-Route::post('/signin', function () {
-    return view('pages.message-list');
-});
+Route::get('/logout', 'PagesController@logout')->name('logout');
 
-Route::get('/logout', function () {
-    return view('pages.index');
-});
+Route::get('/message-list', 'PagesController@messagelist')->name('message-list');
 
-Route::get('/message-list', function () {
-    return view('pages.message-list');
-});
+Route::get('/message-1', 'PagesController@message1')->name('message-1');
 
-Route::get('/message-1', function () {
-    return view('pages.message-1');
-});
-Route::get('/message-2', function () {
-    return view('pages.message-2');
-});
-Route::get('/message-3', function () {
-    return view('pages.message-3');
-});
+Route::get('/message-2', 'PagesController@message2')->name('message-2');
+
+Route::get('/message-3', 'PagesController@message3')->name('message-3');

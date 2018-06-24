@@ -13,7 +13,7 @@
                 <div class="card-body">
                     <h5 class="card-title">Question on my bill</h5>
                     <p class="card-text">There seems to be a few charges I'm not aware off.</p>
-                    <a href="/message-list" class="btn btn-primary">Back</a>
+                    <a href="{{route('message-list')}}" class="btn btn-primary">Back</a>
                 </div>
             </div>
         </div>
