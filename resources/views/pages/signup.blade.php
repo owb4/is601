@@ -26,7 +26,7 @@
                     </div>
                     <div class="mb-3">
                         <label for="email">Email Address</label>
-                        <input type="email" class="form-control" id="email" placeholder="you@example.com">
+                        <input type="email" class="form-control" id="email" placeholder="you@example.com" required>
                         <div class="invalid-feedback">
                             Please enter a valid email address for shipping updates.
                         </div>
